@@ -1,4 +1,40 @@
 {
-  "name": "ReproducerApp",
-  "displayName": "ReproducerApp"
+    "expo": {
+        "name": "cortex",
+        "slug": "testapp",
+        "version": "1.0.0",
+        "orientation": "landscape",
+        "jsEngine": "hermes",
+        "experiments": {
+            "tsconfigPaths": true
+        },
+        "updates": {
+            "fallbackToCacheTimeout": 0,
+            "url": "https://u.expo.dev/667bdb79-776b-4108-8241-8b163979bbc3"
+        },
+        "assetBundlePatterns": ["**/*", "assets/*"],
+        "ios": {
+            "supportsTablet": true,
+            "bundleIdentifier": "brain.test"
+        },
+        "extra": {
+            "eas": {
+                "projectId": "667bdb79-776b-4108-8241-8b163979bbc3"
+            }
+        },
+        "android": {
+            "package": "brain.test"
+        },
+        "plugins": [
+            "react-native-wifi-reborn",
+            [
+                "expo-screen-orientation",
+                {
+                    "initialOrientation": "LANDSCAPE"
+                }
+            ]
+        ],
+        "owner": "skarm61",
+        "runtimeVersion": "1.0.0"
+    }
 }
