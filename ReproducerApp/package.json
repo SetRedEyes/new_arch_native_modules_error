@@ -104,7 +104,6 @@
     "engines": {
         "node": ">=18"
     },
-    "packageManager": "yarn@4.4.0",
     "name": "cortex-app-prebuild",
     "version": "1.0.0"
 }
