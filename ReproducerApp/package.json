@@ -44,7 +44,6 @@
         "@react-native-community/checkbox": "^0.5.17",
         "@react-native-community/hooks": "^3.0.0",
         "@react-native/codegen": "0.75.2",
-        "@react-native/metro-config": "^0.75.2",
         "@react-navigation/native": "^6.1.18",
         "@react-navigation/native-stack": "^6.11.0",
         "@react-three/fiber": "^8.17.6",
